@@ -4,7 +4,7 @@
     public int Y;
 }
 
-public class DTrianle
+public class DTriangle
 {
     public DPoint A;
     public DPoint B;
@@ -57,7 +57,7 @@ public class Program
         DPoint C = new DPoint();
         C.X = 6; C.Y = 9;
 
-        DTrianle triangle = new DTrianle();
+        DTriangle triangle = new DTriangle();
         triangle.A = A;
         triangle.B = B;
         triangle.C = C;
